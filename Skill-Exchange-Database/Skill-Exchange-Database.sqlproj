@@ -57,10 +57,14 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Access" />
+    <Folder Include="Skill" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Access\User.sql" />
     <Build Include="Access\ApplicationUser.sql" />
     <Build Include="Access\ApplicationRole.sql" />
+    <Build Include="Skill\Skill.sql" />
+    <Build Include="Skill\Person_Has_Skill.sql" />
+    <Build Include="Skill\Person_Need_Skill.sql" />
   </ItemGroup>
 </Project>

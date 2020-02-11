@@ -1,0 +1,27 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[ApplicationRole] (Table)
+       [dbo].[ApplicationRole].[IX_ApplicationRole_NormalizedName] (Index)
+       [dbo].[ApplicationUser] (Table)
+       [dbo].[ApplicationUser].[IX_ApplicationUser_NormalizedUserName] (Index)
+       [dbo].[ApplicationUser].[IX_ApplicationUser_NormalizedEmail] (Index)
+       [dbo].[Person_Has_Skill] (Table)
+       [dbo].[Person_Need_Skill] (Table)
+       [dbo].[Skill] (Table)
+       [dbo].[User] (Table)
+       Foreign Key: unnamed constraint on [dbo].[Person_Has_Skill] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Person_Has_Skill] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Person_Need_Skill] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Person_Need_Skill] (Foreign Key)
+
+** Supporting actions

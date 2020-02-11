@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Skill]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(80) UNIQUE, 
+    [Category] NVARCHAR(80) NULL
+)
