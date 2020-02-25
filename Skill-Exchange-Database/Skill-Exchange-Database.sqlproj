@@ -58,6 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="Access" />
     <Folder Include="Skill" />
+    <Folder Include="ExchangeRequest" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Access\User.sql" />
@@ -66,5 +67,10 @@
     <Build Include="Skill\Skill.sql" />
     <Build Include="Skill\Person_Has_Skill.sql" />
     <Build Include="Skill\Person_Need_Skill.sql" />
+    <Build Include="ExchangeRequest\Exchange.sql" />
+    <Build Include="ExchangeRequest\ExchangeMessage.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Skill-Exchange-Database.refactorlog" />
   </ItemGroup>
 </Project>
