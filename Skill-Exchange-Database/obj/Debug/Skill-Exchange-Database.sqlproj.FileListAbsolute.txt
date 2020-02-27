@@ -11,7 +11,6 @@ C:\Users\BRUNO ZORIMA\Documents\Projects\Final_Year_Project\Skill-Exchange-Servi
 C:\Users\BRUNO ZORIMA\Documents\Projects\Final_Year_Project\SkillExchange.Database\Skill-Exchange-Database\bin\Debug\Skill-Exchange-Database.dacpac
 C:\Users\BRUNO ZORIMA\Documents\Projects\Final_Year_Project\SkillExchange.Database\Skill-Exchange-Database\bin\Debug\Skill_Exchange_Database.dll
 C:\Users\BRUNO ZORIMA\Documents\Projects\Final_Year_Project\SkillExchange.Database\Skill-Exchange-Database\bin\Debug\Skill_Exchange_Database.pdb
-C:\Users\BRUNO ZORIMA\Documents\Projects\Final_Year_Project\SkillExchange.Database\Skill-Exchange-Database\obj\Debug\Skill-Exchange-Database.sqlprojAssemblyReference.cache
 C:\Users\BRUNO ZORIMA\Documents\Projects\Final_Year_Project\SkillExchange.Database\Skill-Exchange-Database\obj\Debug\Skill_Exchange_Database.dll
 C:\Users\BRUNO ZORIMA\Documents\Projects\Final_Year_Project\SkillExchange.Database\Skill-Exchange-Database\obj\Debug\Skill_Exchange_Database.pdb
 C:\Users\BRUNO ZORIMA\Documents\Projects\Final_Year_Project\SkillExchange.Database\Skill-Exchange-Database\obj\Debug\Model.xml
