@@ -1,0 +1,34 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[ApplicationRole] (Table)
+       [dbo].[ApplicationRole].[IX_ApplicationRole_NormalizedName] (Index)
+       [dbo].[ApplicationUser] (Table)
+       [dbo].[ApplicationUser].[IX_ApplicationUser_NormalizedUserName] (Index)
+       [dbo].[ApplicationUser].[IX_ApplicationUser_NormalizedEmail] (Index)
+       [dbo].[Exchange] (Table)
+       [dbo].[ExchangeMessage] (Table)
+       [dbo].[Person_Has_Skill] (Table)
+       [dbo].[Person_Need_Skill] (Table)
+       [dbo].[Skill] (Table)
+       [dbo].[User] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Exchange] (Default Constraint)
+       Foreign Key: unnamed constraint on [dbo].[Exchange] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Exchange] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[ExchangeMessage] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[ExchangeMessage] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Person_Has_Skill] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Person_Has_Skill] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Person_Need_Skill] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Person_Need_Skill] (Foreign Key)
+
+** Supporting actions

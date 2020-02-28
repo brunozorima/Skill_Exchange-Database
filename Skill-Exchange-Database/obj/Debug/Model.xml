@@ -176,9 +176,10 @@
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="8" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint">
+			<Property Name="OnDeleteAction" Value="1" />
 			<Relationship Name="Columns">
 				<Entry>
-					<References Name="[dbo].[ExchangeMessage].[Recipient_Id]" />
+					<References Name="[dbo].[ExchangeMessage].[Exchange_Id]" />
 				</Entry>
 			</Relationship>
 			<Relationship Name="DefiningTable">
@@ -188,12 +189,12 @@
 			</Relationship>
 			<Relationship Name="ForeignColumns">
 				<Entry>
-					<References Name="[dbo].[ApplicationUser].[Id]" />
+					<References Name="[dbo].[Exchange].[Id]" />
 				</Entry>
 			</Relationship>
 			<Relationship Name="ForeignTable">
 				<Entry>
-					<References Name="[dbo].[ApplicationUser]" />
+					<References Name="[dbo].[Exchange]" />
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="9" />
@@ -884,7 +885,7 @@
 					</Element>
 				</Entry>
 				<Entry>
-					<Element Type="SqlSimpleColumn" Name="[dbo].[ExchangeMessage].[Recipient_Id]">
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ExchangeMessage].[Exchange_Id]">
 						<Property Name="IsNullable" Value="False" />
 						<Relationship Name="TypeSpecifier">
 							<Entry>

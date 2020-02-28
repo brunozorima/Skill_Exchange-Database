@@ -7,4 +7,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Recipient_Id" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="aa3550f6-cc77-489c-8af9-93aef29e33e2" ChangeDateTime="02/28/2020 14:58:47" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[ExchangeMessage].[Recipient_Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ExchangeMessage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Exchange_Id" />
+  </Operation>
 </Operations>

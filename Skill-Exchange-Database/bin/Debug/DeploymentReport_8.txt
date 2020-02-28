@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[ExchangeMessage].[Exchange_Id] (Column)
+     Drop
+       unnamed constraint on [dbo].[ExchangeMessage] (Foreign Key)
+       unnamed constraint on [dbo].[ExchangeMessage] (Foreign Key)
+     Create
+       Foreign Key: unnamed constraint on [dbo].[ExchangeMessage] (Foreign Key)
+
+** Supporting actions
