@@ -12,7 +12,14 @@
     [PasswordHash] NVARCHAR(MAX) NULL,
     [PhoneNumber] NVARCHAR(50) NULL,
     [PhoneNumberConfirmed] BIT NOT NULL,
-    [TwoFactorEnabled] BIT NOT NULL
+    [TwoFactorEnabled] BIT NOT NULL,
+	[Location] NVARCHAR(256) NULL, 
+    [Photo] INT NULL DEFAULT 0 , 
+    [Education] NVARCHAR(MAX) NULL, 
+    [WorkExperience] NVARCHAR(MAX) NULL, 
+    [Description] NVARCHAR(MAX) NULL
+	
+
 )
 GO
 

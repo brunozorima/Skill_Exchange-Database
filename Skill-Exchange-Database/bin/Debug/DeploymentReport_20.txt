@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column Category in table [dbo].[Skill] is currently  NVARCHAR (80) NULL but is being changed to  INT NULL.
+         Data loss could occur.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Skill] (Unique Constraint)
+     Alter
+       [dbo].[Skill] (Table)
+
+** Supporting actions
+     Create
+       Unique Constraint: unnamed constraint on [dbo].[Skill] (Unique Constraint)
+
+The type for column Category in table [dbo].[Skill] is currently  NVARCHAR (80) NULL but is being changed to  INT NULL. Data loss could occur.
+

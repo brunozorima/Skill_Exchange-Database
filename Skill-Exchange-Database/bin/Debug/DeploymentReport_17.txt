@@ -1,0 +1,43 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[ApplicationRole] (Table)
+       [dbo].[ApplicationRole].[IX_ApplicationRole_NormalizedName] (Index)
+       [dbo].[ApplicationUser] (Table)
+       [dbo].[ApplicationUser].[IX_ApplicationUser_NormalizedUserName] (Index)
+       [dbo].[ApplicationUser].[IX_ApplicationUser_NormalizedEmail] (Index)
+       [dbo].[Exchange] (Table)
+       [dbo].[Exchange].[IX_Exchange_Sender_Id] (Index)
+       [dbo].[Exchange].[IX_Exchange_Recipient_Id] (Index)
+       [dbo].[ExchangeMessage] (Table)
+       [dbo].[ExchangeMessage].[IX_ExchangeMessage_Sender_Id] (Index)
+       [dbo].[ExchangeMessage].[IX_ExchangeMessage_Exchange_Id] (Index)
+       [dbo].[Image] (Table)
+       [dbo].[Person_Has_Skill] (Table)
+       [dbo].[Person_Has_Skill].[IX_Person_Has_Skill_Person_Id] (Index)
+       [dbo].[Person_Has_Skill].[IX_Person_Has_Skill_Skill_Id] (Index)
+       [dbo].[Person_Need_Skill] (Table)
+       [dbo].[Person_Need_Skill].[IX_Person_Need_Skill_Person_Id] (Index)
+       [dbo].[Person_Need_Skill].[IX_Person_Need_Skill_Skill_Id] (Index)
+       [dbo].[Skill] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Exchange] (Default Constraint)
+       Foreign Key: unnamed constraint on [dbo].[ApplicationUser] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Exchange] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Exchange] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[ExchangeMessage] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[ExchangeMessage] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Person_Has_Skill] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Person_Has_Skill] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Person_Need_Skill] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Person_Need_Skill] (Foreign Key)
+
+** Supporting actions
